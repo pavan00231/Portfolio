@@ -1,0 +1,103 @@
+.img_tabs {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+
+.main_box_tabs {
+
+    /* width: 100%; */
+    /* border: 1px solid/ green; */
+    /* margin-right: 20px; */
+    width: 315px;
+    /* border: 1px solid green; */
+    filter: drop-shadow(2px 1px 7px black);
+    /* margin-right: 20px; */
+    box-shadow: 2px 2px 10px black;
+    border-radius: 11px;
+
+}
+
+
+.team_main_tabs_card {
+
+    background: transparent;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1ps solid grey;
+}
+
+.Protofilo_title_typo {
+
+    font-size: 23px !important;
+    font-weight: 500 !important;
+    margin: 10px 0 7px 0 !important;
+    font-family: 'Montserrat' !important;
+}
+
+
+.Protofilo_text_typo {
+   
+
+    font-family: 'Montserrat' !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    height: 45px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Display up to 2 lines of text */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.grid_tabs_customTab {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: auto auto auto; */
+    gap: 17px;
+}
+
+
+.checkout_button_tabs {
+    width: 155px !important;
+    background: crimson !important;
+    color: white !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    word-spacing: 0px !important;
+    height: 45px !important;
+
+}
+
+
+.checkout_button_tabs_box {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    margin-top: 15px !important;
+}
+
+
+
+.main_box_tabs:hover {
+
+    background: crimson;
+    color: white;
+
+    
+}
+
+.main_box_tabs:hover .checkout_button_tabs {
+    background: white !important;
+    color: crimson  !important;
+
+    
+}

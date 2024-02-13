@@ -1,0 +1,77 @@
+.main_skills_box  {
+
+    width: 100%;
+    height: 100%;
+    padding: 4rem 0 2rem;
+}
+
+.what_title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+.what_title::after {
+    content: "what i know";
+}
+.what_title::after {
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 20px;
+    color: crimson;
+    background: #d8ddee;
+    padding: 0 5px;
+    transform: translateX(-50%);
+}
+.what_title {
+    position: relative;
+    text-align: center;
+    font-size: 40px !important;
+    font-weight: 500 !important;
+    margin-bottom: 60px !important;
+    padding-bottom: 10px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+    width: 300px !important;
+}
+
+
+
+.box_about_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sub_cls_box_skills {
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: start;
+    justify-content: space-between;
+
+}
+
+.cpp .anim {
+    
+animation: cpp 1.5s linear forwards;
+}
+
+.sub_cls_wid_50 {
+    width: 45%;
+}
+
+
+.flex_box_dataobj{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

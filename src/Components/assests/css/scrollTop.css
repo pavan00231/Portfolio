@@ -1,0 +1,36 @@
+.top_btn_style {
+    /* height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    color: black;
+    background: transparent; */
+
+
+
+    height: 35px !important;
+    width: 35px !important;
+    border: 2px solid crimson !important;
+    color: crimson !important;
+    background: transparent;
+    border-radius: 8px;
+}
+
+.top_btn_style:hover {
+
+    height: 35px !important;
+    width: 35px !important;
+    border: 2px solid crimson !important;
+    background : crimson !important;
+    color: white !important;
+    border-radius: 8px;
+}
+
+
+
+.top_btn_style_div {
+
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 1000;
+}

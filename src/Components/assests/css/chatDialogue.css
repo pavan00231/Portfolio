@@ -1,0 +1,27 @@
+.chatDilogue {
+    margin: 20px;
+    background-color: white;
+    z-index: 1000;
+    margin-top: -8%;
+    width: 97%;
+    max-width: md;
+    height: 97%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.chatComp {
+    display: flex;
+}
+
+.leftComponent {
+    min-width: 450px;
+    height: 100%;
+}
+
+.rightComponent {
+    width: 73%;
+    min-width: 300px;
+    height: 100%;
+    border-left: 1px solid rgba(0,0,0,0.14);
+}

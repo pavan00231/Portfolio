@@ -1,0 +1,22 @@
+.footer_div {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    word-spacing: 3px;
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    bottom: 0px;
+    position: relative;
+    right: 0px;
+    height: 80px;
+}
+
+.font_color {
+    color: #de453d;
+    font-weight: bold;
+}

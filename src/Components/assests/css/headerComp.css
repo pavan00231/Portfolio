@@ -1,0 +1,35 @@
+.headerComp {
+    height: 65px;
+    background: #ededed;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+}
+
+.chat_header_img {
+
+    height: 75%;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+}
+
+.chatHeader_wrapper {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.chatHeader_wrapper > * {
+    margin-left: 2px;
+    padding: 10px;
+    color: black;
+    font-size: 45px !important;
+
+}
+
+.chatHeader_wrapper > :first-child {
+    margin-right: 8px;
+    margin-top: 0px;
+}

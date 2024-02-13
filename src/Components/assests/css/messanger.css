@@ -1,0 +1,19 @@
+.header {
+    background-color: #00bfa5;
+    height:180px;
+    box-shadow: none;
+}
+
+.header_after_login {
+    background-color: #00bfa5;
+    height:125px;
+    box-shadow: none;
+}
+
+
+
+.component {
+    height: 100vh;   
+     width: 100vw;
+    /* background-color: #dcdcdc; */
+}
